@@ -1,0 +1,362 @@
+body{
+    margin: 0;
+    font:  Arial, Helvetica, sans-serif;
+    background-color:#eaeded;
+}
+header{
+    background-color: rgb(37, 47, 62);
+    height: 60px;
+    margin-bottom: 60px;
+
+}
+main{
+    margin-top: 0;
+ 
+}
+.logo{
+    padding-left: 25px;
+    height:50px;
+    width:150px;
+}
+.nav_bar{
+    padding-left: 25px;
+    display:block;
+    background-color: rgb(54, 71, 89);
+     color: white;
+     padding-top: 8px;
+     padding-bottom: 8px;
+     margin-bottom: 0;
+     height: 18px;
+    
+     
+    
+}
+header span{
+    margin-right: 1rem;
+    font-weight: 400;
+}
+.gift_cards{
+    
+    padding: .5rem;
+    text-align: center;
+    background-color: rgb(245, 102, 0);
+    color: white;
+    height: 18px;
+   
+   
+    width: 94.8vw;
+   margin-bottom: 2rem;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 32px;
+    
+
+
+}
+#holiday_banner{
+   background-image: url("bg-image.png");
+  
+    height: 100px;
+    text-align: center;
+    color:white;
+    padding: 3rem 0rem;
+    margin-bottom: 2rem;
+    margin-left: 32px;
+    margin-right: 32px;
+    width: 95.5vw;
+}
+
+
+.photogallery{
+    background-color: white;
+    width: 93vw;
+    height: 455px;
+    padding: 1rem 1rem 0 1.5rem;
+    padding-left: 21px;
+    padding-right: 16px;
+    padding-top: 16px;
+    text-align: left;
+   
+    margin-left: 32px;
+    margin-right:1rem;
+
+}
+.title{
+    font-size: 1.5rem;
+}
+.sub_title{
+    font-size: 1rem;
+    color: rgb(0,113,133);
+    margin-left: 1rem;
+}
+.photo_row{
+
+    height: 455px;
+    text-align: center;
+    width: 92vw;
+    }
+.img_1{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: rgb(0, 0, 0);
+    display: inline;
+    height: 379px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 16px;
+    width: 304px;
+
+}
+.img_2{
+
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: inline;
+    height: 379px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 16px;
+    width: 304px;
+}
+.img_3{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: inline;
+    height: 379px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 16px;
+    width: 304px;
+
+}
+
+.img_4{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: inline;
+    height: 379px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 16px;
+    width: 304px;
+   
+
+}
+
+
+
+
+
+
+#new_container{
+    background-color:transparent;
+    width: 93vw;
+    height: 425px;
+    padding: 1rem 1rem 0 1.5rem;
+    padding-left: 0px;
+    padding-right: 16px;
+    padding-top: 35px;
+    text-align: left;
+   
+    margin-left: 32px;
+    margin: right 0.5em;
+}
+.nc_box_one{
+    position: relative;
+    display:inline-block;
+      
+    background-color:white;
+    height: 420px;
+    margin-right: 40px;
+    width: 328px;
+   
+
+}
+.title{
+    position:relative;
+    margin-top:0;
+    padding-top: 10px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+.photo_bottom{
+    padding-top:40px;
+    padding-left: 30px;
+    color: rgb(0,113,133);
+}
+.b_body{
+    display: block;
+   
+    height: 282px;
+    padding-bottom: 0px;
+    padding-left: 35px;
+    padding-right: 0px;
+    padding-top: 0px;
+    width: 264px;  
+}
+.photo_container{
+    display: inline-block;
+    margin-right: 0;
+    padding-right:10px;
+    height: 133px;
+    width: 120px;
+    padding-bottom: 10px;
+}
+img{
+    height: 115px;
+    object-fit: cover;
+    width: 120px;
+}
+
+
+.nc_box_two{
+    position: relative;
+    display:inline-block;
+    background-color:white;
+    height: 420px;
+    margin-right: 40px;
+    width: 328px;
+}
+.nc_box_three{
+    position: relative;
+    display:inline-block;
+    background-color:white;
+    height: 420px;
+    margin-right: 40px;
+    width: 328px;
+
+}
+.nc_box_four{
+    position: relative;
+    display:inline-block;
+    background-color:white;
+    height: 420px;
+    margin-right: 32px;
+    width: 328px;
+
+}
+
+
+p{
+    margin-top: 0;
+    margin-bottom:20px;
+}
+
+.tec_photo{
+    background-color: transparent;
+    text-align: center;
+
+    margin-right:32px;
+    margin-left:32px;
+    margin-top:40px;
+
+    
+}
+.tec{
+    width:100%;
+    height: 455px;
+
+
+}
+.photo_vgear_title{
+    font-size: 1.5rem;
+    margin-right:1rem;
+   
+  
+
+}
+.subtitle_2{
+    font-size: 1rem;
+    color: rgb(0, 113, 133);
+    
+    font-weight: 600;
+
+}
+.autio_photo{
+    background-color:#eaeded;
+    text-align: center;
+    background-color: transparent;
+    margin-right:32px;
+    margin-left:32px;
+    margin-top:40px;
+    margin-bottom: 50px;
+    
+
+}
+.autio{
+    width:100%;
+    height: 455px;
+
+
+}
+.photo_autio_title{
+    margin-bottom: 50px;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+
+}
+.photo_autio_subtitle{
+    color: rgb(0,113,133);
+    font-weight: 600;
+    font-size: 1rem;
+ 
+    text-align: center;
+}
+
+.bottom_logo{
+    background-color: rgb(54, 71, 89);
+    margin-top:0;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 18px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    text-align: center;
+    width: 100%; 
+
+
+}
+.company_logo_bottom{
+    background-color: rgb(34,47,62);
+    height: 64px;
+    padding-bottom: 64px;
+    padding-left: 20px;
+    padding-right: 64px;
+    padding-top: 64px;
+    text-align: center;
+    width: 100%;
+    }
+.footer_logo{
+    height: 60px;
+    width: 170px;
+    
+    
+}
+.color-white{
+    color:white;
+
+}
+.photo_bottom_2{
+    padding-top:35px;
+    padding-left: 0px;
+    color: rgb(0,113,133);
+}
+.photo_bottom_3{
+    padding-top:35px;
+    padding-left: 0px;
+    color: rgb(0,113,133);
+}
