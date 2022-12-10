@@ -95,6 +95,22 @@ header span{
     text-align: center;
     width: 92vw;
     }
+.overlay{
+    position:absolute;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: rgb(0, 0, 0);
+    display: inline;
+    height: 379px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 16px;
+    width: 304px;
+
+}
 .img_1{
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
