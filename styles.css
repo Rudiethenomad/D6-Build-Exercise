@@ -112,22 +112,23 @@ header span{
     margin-right: 16px;
     margin-top: 16px;
     width: 304px;
-    padding-left: 70px;
-
+    padding-left: 0px;
+    overflow: hidden;
     box-shadow:0 10px 30px rgba(0, 0, 0, 0.55); 
     transition: box-shadow .5s;
     cursor:pointer;
-    transform:translateX(120px) ;
+    transform:translateY(0px) ;
     transition: transform .5s;
 
 
 }
-.overlay:hover{
+.img_1:hover{
     box-shadow:0 10px 30px rgba(0, 0, 0, 0.55); 
     transition: box-shadow .5s;
     cursor:pointer;
-    transform:translateX(120px) ;
+     transform:translateY(-420px) ;
     transition: transform .5s;
+    overflow: hidden;
 
 }
 .cart{
@@ -143,6 +144,16 @@ header span{
 .like{
    position:relative;
     padding-left: 40px;
+    transform:translateY(-420px) ;
+    transition: transform .5s;
+    
+}
+.photo_row:hover .cart .like{
+
+    transform:translateX(-420px);
+
+
+
 }
 .like_icon{
     width: 38px;
@@ -161,7 +172,12 @@ header span{
     margin-right: 16px;
     margin-top: 16px;
     width: 304px;
-
+    box-shadow:0 10px 30px rgba(0, 0, 0, 0.55); 
+    overflow: hidden;
+    transition: box-shadow .5s;
+    transform: translateY(.5s);
+    cursor:pointer
+   
   
     
 
