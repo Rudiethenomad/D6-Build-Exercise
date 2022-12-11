@@ -114,6 +114,21 @@ header span{
     width: 304px;
     padding-left: 70px;
 
+    box-shadow:0 10px 30px rgba(0, 0, 0, 0.55); 
+    transition: box-shadow .5s;
+    cursor:pointer;
+    transform:translateX(120px) ;
+    transition: transform .5s;
+
+
+}
+.overlay:hover{
+    box-shadow:0 10px 30px rgba(0, 0, 0, 0.55); 
+    transition: box-shadow .5s;
+    cursor:pointer;
+    transform:translateX(120px) ;
+    transition: transform .5s;
+
 }
 .cart{
     position:relative;
@@ -146,6 +161,9 @@ header span{
     margin-right: 16px;
     margin-top: 16px;
     width: 304px;
+
+  
+    
 
 }
 .img_2{
